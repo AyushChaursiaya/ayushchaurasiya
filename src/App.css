@@ -1,0 +1,39 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .nav-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
